@@ -1,0 +1,38 @@
+.container {
+  border: solid black;
+  height: 250px;
+  width: 400px;
+  text-align: center;
+  align-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+.inside {
+  margin-top: 50px;
+  overflow: inherit;
+}
+.title {
+  color: whitesmoke;
+  font-family: "Josefin Sans", sans-serif;
+}
+.input {
+  background-color: whitesmoke;
+  height: 2em;
+}
+button {
+  cursor: pointer;
+  height: 2.3em;
+}
+
+.inputwrap {
+  padding-top: 20px;
+  align-items: center;
+}
+.res {
+  padding-top: 10px;
+  word-wrap: break-word;
+  font-family: "Josefin Sans", sans-serif;
+}
